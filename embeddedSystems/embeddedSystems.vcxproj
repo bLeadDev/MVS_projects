@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="binarySearch.c" />
+    <ClCompile Include="binarySearchTest.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="binarySearch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
