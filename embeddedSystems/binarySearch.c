@@ -11,7 +11,7 @@
 //
 
 //Private function. Do not use without binarySearch!
-uint16_t binarySearchPVT(uint16_t list[], uint16_t valueToFind, uint16_t lowerBoundary, uint16_t upperBoundary) {
+static uint16_t binarySearchPVT(uint16_t list[], uint16_t valueToFind, uint16_t lowerBoundary, uint16_t upperBoundary) {
 	if (lowerBoundary == upperBoundary - 1) {
 		if (list[lowerBoundary] == valueToFind) {
 			return lowerBoundary;
